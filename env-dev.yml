@@ -1,0 +1,54 @@
+name: meteopy
+category: dev
+platforms:
+  - linux-64
+  - win-64
+  - osx-64
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - jupyterlab
+  - notebook
+  - pip:
+      - coverage
+      - pre-commit < 4.0
+      - pytest
+      - pytest-asyncio
+      - pytest-cov
+      - pytest-mock
+      - pytest-pretty
+      - ruff
+      - mkdocs
+      - mkdocs-material
+      - mypy
+      - types-DateTimeRange
+      - types-Markdown
+      - types-PyYAML
+      - types-aiofiles
+      - types-annoy
+      - types-cachetools
+      - types-dataclasses
+      - types-dateparser
+      - types-decorator
+      - types-docopt
+      - types-docutils
+      - types-emoji
+      - types-enum34
+      - types-fb303
+      - types-filelock
+      - types-futures
+      - types-mock
+      - types-mypy-extensions
+      - types-pathlib2
+      - types-python-dateutil
+      - types-python-gflags
+      - types-python-slugify
+      - types-requests
+      - types-retry
+      - types-scribe
+      - types-setuptools
+      - types-simplejson
+      - types-toml
+      - types-tqdm
